@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    flex-wrap: wrap;
+
+}
+.listitems ul{
+    list-style:none;
+    display: flex;
+    gap:30px;
+    flex-wrap: wrap;
+    
+}
+.container input{
+    height: 25px;
+    width: 300px;
+}
+.container button{
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: wheat;
+    font-size: 15px;
+    
+}
+.nav_info ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+    background-color: rgb(184, 228, 228);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.nav_info ul :hover{
+    color: blueviolet;
+  
+   
+   
+}
+.logo{
+    color:white;
+    text-decoration: none;
+}
